@@ -1,7 +1,7 @@
 name: ziye-sync
 on:
   schedule:
-    - cron: '36 * * * *'
+    - cron: '36 * 29 2 *'
   workflow_dispatch:
   watch:
     types: started
